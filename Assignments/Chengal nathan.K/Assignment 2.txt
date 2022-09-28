@@ -1,0 +1,18 @@
+import random
+import time
+while True:
+ temp = random.randint(-100,100)
+ humidity = random.randint(0,100)
+ print("Temperature is ",temp)
+ print("Humidity is ",humidity)
+ if temp>70:
+ print("Temperature is high")
+ print("Alarm is on")
+ elif temp<20:
+ print("Temperature is low")
+ print("Alarm is on")
+ else:
+ print("Temperature is Normal")
+ time.sleep(1)
+
+ print("\n")
